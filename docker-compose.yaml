@@ -7,7 +7,6 @@ services:
     container_name: setup_api
     tty: true
     stdin_open: true
-    # command: npm run dev # inicia a API quando container for iniciado
     restart: always
     working_dir: /app
     volumes:
